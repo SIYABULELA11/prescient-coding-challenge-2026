@@ -1,0 +1,11 @@
+Team name: AssetBureu
+
+Strategy
+
+We use a regime-aware Ridge regression model with engineered nonlinear financial features, blended with shallow Extra Trees. Features capture momentum, mean reversion, volatility, drawdowns, macroeconomic regimes, currency effects and cross-asset interactions across all six asset classes.
+
+Ridge provides stability and reduces overfitting, while Extra Trees captures a limited set of nonlinear relationships. The blend is intentionally conservative and includes gradual trading to control transaction costs.
+
+AI tools used
+
+OpenAI ChatGPT and Codex were used for research, feature-design discussion, implementation support, debugging and validation.
